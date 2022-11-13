@@ -1,0 +1,39 @@
+@media (max-width: 2000px) {/* rules here apply to devices from 993px to 1200px (inclusive) */
+    body{
+        background-color: rgb(4, 66, 61);
+    }
+    .firstdiv{
+        background-color: black;
+        color: whitesmoke;
+        width: 80%;
+    }
+    .mother{
+        display: flex;
+    }
+    .child1, .child2{
+        background-color: rebeccapurple;
+    }
+}
+/* all rules outside of @media queries apply to devices 1201px and above */
+@media (max-width: 1200px) {/* rules here apply to devices from 993px to 1200px (inclusive) */
+    body{
+        background-color: wheat;
+    }
+    .firstdiv{
+        width: 50%;
+    }
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {/* rules here apply to devices from 0px or 425px to 768px (inclusive) */}
+
+/* You may also apply this: */
+@media (max-width: 425px) {/* rules here apply to devices from 0px to 425px (inclusive) */
+    body{
+        background-color: lightcoral;
+    }
+    .mother{
+        display: block;
+    }
+   
+}
